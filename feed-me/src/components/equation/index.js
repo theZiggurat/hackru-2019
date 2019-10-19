@@ -7,6 +7,6 @@ export default class Equation extends React.Component {
     }
 
     render() {
-        
+        return (<div></div>);
     }
 }
