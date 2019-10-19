@@ -1,16 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Fields from './components/input';
-import Equation from './components/equation';
-import Result from './components/result';
+import Controller from './components/controller';
 
 function App() {
+
   return (
     <div className="App">
-      <Fields></Fields>
-      <Equation/>
-      <Result></Result>
+      <Controller/>
     </div>
   );
 }
