@@ -18,7 +18,7 @@ class _Context {
     }
 
     evaluate() {
-        return this.parser.evaluate(this.equation, this.fields);
+        return this.parser.evaluate(this.equation);
     }
 }
 
