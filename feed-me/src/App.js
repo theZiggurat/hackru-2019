@@ -9,6 +9,8 @@ function App() {
   return (
     <div className="App">
       <Fields></Fields>
+      <Equation/>
+      <Result></Result>
     </div>
   );
 }

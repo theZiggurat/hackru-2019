@@ -1,4 +1,5 @@
 import React from 'react';
+import {Input} from 'antd';
 import Mathjs from 'mathjs';
 
 export default class Equation extends React.Component {
@@ -7,6 +8,8 @@ export default class Equation extends React.Component {
     }
 
     render() {
-        return (<div></div>);
+        return <div className="input">
+            <Input size="large" placeholder="Equation"/>
+        </div>;
     }
 }
